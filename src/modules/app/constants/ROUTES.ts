@@ -4,7 +4,7 @@ export const APP_ROUTES = {
   COACH: "coach",
   GAME: "game",
   HOME: "home",
-  AUTH: { LOGIN: "login" },
+  AUTH: { LOGIN: "/" },
   PHASE: "phase",
   PITCHER: "pitcher",
   PLAYER: "player",
