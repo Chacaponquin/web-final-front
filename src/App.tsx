@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import {
   Batter,
@@ -15,6 +14,7 @@ import {
   Users,
 } from "./containers";
 import { APP_ROUTES } from "./modules/app/constants";
+import { UserProvider } from "./modules/user/contexts";
 
 const router = createBrowserRouter([
   {
@@ -36,8 +36,8 @@ const router = createBrowserRouter([
 
 export default function App() {
   return (
-    <Fragment>
+    <UserProvider>
       <RouterProvider router={router} />
-    </Fragment>
+    </UserProvider>
   );
 }
