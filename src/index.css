@@ -3,3 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --primary-color: #358ca7;
+  --gray-color: #bdc3c7;
+  --second-color: #3498db;
+  --form-bg-color: rgba(255, 255, 255, 0.8);
+  --strong-color: #358ca7;
+  --error-color: #f34028;
+  --background-1-color: #4ca1af;
+  --background-2-color: #c4e0e5;
+  --login-color: #2d4571;
+}

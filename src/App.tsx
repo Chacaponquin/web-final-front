@@ -18,7 +18,7 @@ import { UserProvider } from "./modules/user/contexts";
 
 const router = createBrowserRouter([
   {
-    path: APP_ROUTES.ROOT,
+    path: APP_ROUTES.AUTH.LOGIN,
     element: <Login />,
   },
   { path: APP_ROUTES.BATTER, element: <Batter /> },
